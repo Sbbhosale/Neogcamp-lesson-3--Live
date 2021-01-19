@@ -2,6 +2,7 @@
 
 :root{
     --primary-color : white;
+    --gray : #E5E7EB;
 }
 
 body{
@@ -94,6 +95,19 @@ hr{
 }
 
 
+
+
+.section{
+    padding: 2rem;
+}
+
+.section h3{
+    text-align: center;    
+}
+
+.ow{
+    background-color: var(--gray);
+}
 
 
 
