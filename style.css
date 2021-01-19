@@ -7,11 +7,14 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr{
     margin : 2rem 0rem;
 }
+
+/* containers */
 
 .container{
     padding: 0rem 1rem;
@@ -21,6 +24,8 @@ hr{
     max-width: 600px;
     margin:auto;
 }
+
+/* Links */
 
 .link{
     text-decoration: none;
@@ -49,7 +54,7 @@ hr{
     padding : 1rem 1rem;
 }
 
-
+/* navigation */
 
 .navigation{
     background-color:
@@ -77,6 +82,7 @@ hr{
     font-weight: bold;
 }
 
+/* header */
 
 .hero{
     padding : 2rem;
@@ -95,7 +101,7 @@ hr{
 }
 
 
-
+/* sections */
 
 .section{
     padding: 2rem;
@@ -109,5 +115,23 @@ hr{
     background-color: var(--gray);
 }
 
+/* Footer */
 
+.footer{
+    padding: 2rem 1rem ;
+    background-color:#03045e ;
+    text-align: center;
+    color :var(--primary-color);
+    border-top-right-radius: 1rem;
+}
+
+
+
+.footer .link{
+    color : white
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
 
