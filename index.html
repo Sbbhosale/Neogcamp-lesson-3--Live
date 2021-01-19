@@ -1,137 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>PORTFOLIO | Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-
-
 <body>
-    <h1>Shubham Bhosale's Component Library</h1>
-    <p>I'm attending Neog.camp lecture of html and I want make my own component library.</p>
-
-    <hr>
-
-    <h2>@Typography</h2>
-    
-    <h1>This is the biggest Heading</h1>
-    <h2>This is the second biggest Heading</h2>
-    <p>In this section we are seeing what typography is exactly.</p>
-    <p>This para has <strong>bold</strong> text.</p>
-    <small>This is relatively small text</small>
-    
-    <hr>
-
-
-    <h2>@Container</h2>
-    <h3>@Fluid Container</h3>
-    <div class = "container">This is the fluid container and this will go till end of the page.</div>
-    <h3>@Center Container</h3>
-    <div class = "container center-container">This is a centered container and it will go till the sepcified width.</div>
-    <hr>
-
-
-    <h2>@Links</h2>
-    <a href="#" class = "link link-primary">Primary Link</a>
-    <a href="#" class="link link-secondary">Secondary Link</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-    <h3>Unordered List</h3>
-    <ul class ="non-bulleted-list">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>Unordered Inline List</h3>
-    <ul class="non-bulleted-list">
-        <li class="inline-list">Inline Item One</li>
-        <li class="inline-list">Inline Item Two</li>
-        <li class="inline-list">Inline Item Three</li> 
-    </ul>
-
-    <h3>Reverse Ordered List</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>Egg</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-
-    <h3>@Nav</h3>
-    <p>This tag is used for or highlighting the scrren reader while reading the screen that these links are important.</p>
     <nav class = "navigation container">
-        <div class="nav-brand">IAmBrand</div>
-        <ul class="non-bulleted-list allign link-active">
-            <li class="inline-list">
-                <a href = "#" class="link">Home</a>
+        <div class="nav-brand">
+            <p>HELLO ! . WELCOME TO MY PROFILE</p>
+        </div>
+        <ul class="non-bulleted-list allign ">
+            <li class="inline-list link-active">
+                <a href = "/index.html" class="link">Home</a>
             </li>
             <li class="inline-list">
-                <a href="#" class="link">About</a>
+                <a href="/blogs.html" class="link">Blogs</a>
             </li>
             <li class="inline-list">
-                <a href="#" class="link">Projects</a>
+                <a href="/projects.html" class="link">Projects</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    
-    
-    
-    
-    
-    <h2>@Header</h2>
-    
     <header class="hero">
-        <img src="images/undraw_in_progress_ql66.svg" class="hero-img">
+        <h1 class="hero-heading">Shubham Bhosale's <span class="single-highlight">Web Development</span> Portfolio</h1>
         <br>
-        <h1 class="hero-heading">Heading inside Hero.</h1>
+        <img src="/images/undraw_Portfolio_update_re_jqnp (1).svg">
+        
     </header>
 
-    <hr>
-
-    <h2>@Sections</h2>
-    <section class="section">
-        <div class="center-container">
-            <h3>White Section</h3>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you</p>
-        </div>
-    </section>
 
     <section class="section ow">
         <div class="center-container">
-            <h3>Off white section</h3>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you</p>
+            <h3>-: About Myself :-</h3>
+            <ul class ="non-bulleted-list">
+                <li>MySelf SHubham Vinayak Bhosale, currently studying in Final year of Bsc.IT.</li>
+                <li>Planning to work ahead in <span style="font-weight:bold;">Web Development.</span></li>
+                <li>I'm also Interested in Fitness related things such as nutrition, workouts.</li>
+            </ul>
         </div>
         
     </section>
 
-    <hr>
 
-    <h2>@Footer</h2>
+
+    <section class="section">
+        <div class="center-container">
+            <h3>-: My Technical Skills :-</h3>
+            <p>I'm familiar with :  <strong>HTML5 , CSS3  Javascript , NodeJs , Python , Tableau , SQL , Github , Web Hosting.</strong></p>
+        </div>
+    </section>
+
+
+    <section class="section ow">
+        <div class="center-container">
+            <h3>-: My Work :-</h3>
+            <p>I would Like to share my projects , feel free to go and check it. Hope You Love It.</p>
+            <a href="/projects.html" class = "link link-primary">My Projects</a>
+        </div>
+        
+    </section>
+
+    <section class="section">
+        <div class="center-container">
+            <h3>-: Talks :-</h3>
+            <p>I had put up my few expierences , understanding of technical topics and also added my hobby related stuffs in the <strong>Blog</strong> section.</p>
+            <a href="/blogs.html" class="link link-secondary">View Blogs</a>
+        </div>
+    </section>
 
     <footer class="footer">
-        <div class="footer-heading">Some small heading inside footer<div>
+        <div class="footer-heading">Sources to reach me :</div>
             <ul class="non-bulleted-list">
                 <li class="inline-list">
-                    <a href = "#" class="link">SocialOne</a></li>
-                <li class="inline-list"><a href = "#" class="link">SocialTwo</a></li>
-                <li class="inline-list"><a href = "#" class="link">SocialThree</a></li>
+                    <a href = "https://github.com/Sbbhosale" class="link" target="_blank">GITHUB</a></li>
+                <li class="inline-list"><a href = "https://linkedin.com/shubhambhosale" target="_blank" class="link">LINKEDIN</a></li>
+                <li class="inline-list"><a href = "https://twitter.com/SHUBHAM_1600" class="link" target="_blank">TWITTER</a></li>
             </ul>
-        </footer>
-    
-
+    </footer>
 
 </body>
 </html>
